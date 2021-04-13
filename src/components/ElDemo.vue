@@ -47,7 +47,7 @@
                   class="inline-input"
                   v-model="scope.row.state1"
                   :fetch-suggestions="querySearch"
-                  placeholder="请输入内容"
+                  placeholder="请输入您要搜索的数据"
                   @select="handleSelect"
                 ></el-autocomplete>
               </template>
